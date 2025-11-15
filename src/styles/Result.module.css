@@ -1,0 +1,12 @@
+.result {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: .25rem 0 0;
+  }
+  
+  .win { color: #16a34a; }
+  .lose { color: #dc2626; }
+  .tie { color: #92400e; }
+  .subtle { color: #6b7280; font-weight: 500; }
+  

@@ -1,0 +1,21 @@
+.board {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .badge {
+    padding: .35rem .6rem;
+    border-radius: 999px;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    font-weight: 600;
+  }
+  .reset {
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    padding: .5rem .8rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .reset:disabled { opacity: .6; cursor: not-allowed; }
+  
